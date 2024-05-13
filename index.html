@@ -3,9 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora con html,css y js</title>
+    <link rel="stylesheet" href="styless.css">
 </head>
 <body>
-    <h1>Calculadora</h1>
+
+<section>
+     <div class="calculadora">
+            <header>
+                <h3>Calculator</h3>
+            </header>
+            <input class="texto" id="txt" type="text" value="">
+            <br>
+
+            <div class="fila-botones">
+                <button onclick="agregarNumero(7)">7</button>
+                <button onclick="agregarNumero(8)">8</button>
+                <button onclick="agregarNumero(9)">9</button> 
+                <button class="operadores" onclick="agregarNumero('/')">/</button>
+                <br> 
+            </div>
+
+            <div class="fila-botones">
+                <button onclick="agregarNumero(4)">4</button>
+                <button onclick="agregarNumero(5)">5</button>
+                <button onclick="agregarNumero(6)">6</button> 
+                <button class="operadores" onclick="agregarNumero('*')">x</button>
+                <br> 
+            </div>
+
+            <div class="fila-botones">
+                <button onclick="agregarNumero(1)">1</button>
+                <button onclick="agregarNumero(2)">2</button>
+                <button onclick="agregarNumero(3)">3</button> 
+                <button class="operadores" onclick="agregarNumero('-')">-</button>
+                <br> 
+            </div>
+
+            <div class="fila-botones">
+                <button onclick="agregarNumero('.')">,</button>
+                <button onclick="agregarNumero(0)">0</button>
+                <button onclick="limpiar()">C</button> 
+                <button class="operadores" onclick="agregarNumero('+')">+</button>
+                <br> 
+            </div>
+
+            <div class="fila-botones">
+                <button onclick="calcular()">=</button>
+                <button value="AC" id="borrar" onclick="borrar()">
+                    <i class="fa-solid fa-delete-left"></i>
+                </button>
+            </div>
+
+     </div>
+
+    
+<form class="monto">
+        
+    <fieldset class="contenedor-monto">
+    <div class="solo-monto">
+        <br>
+            <span>Tip</span>
+        <input id="pantallaA" type="text" value="">
+        <br>
+        <div>
+            <button type="button"  class="fila-botonesA" onclick="porcentaje('10')">10%</button>
+            <button type="button" class="fila-botonesA" onclick="porcentaje('15')">15%</button>
+            <button type="button" class="fila-botonesA" onclick="porcentaje('20')">20%</button>
+            <br>
+        </div>
+    </div>
+    </fieldset>
+    
+
+    <fieldset class="contenedor-deseado">
+        <div class="solo-deseado">
+            <br>
+            <span>Add percentaje</span>
+            <input id="pantallaB" type="number" value="">  
+                <label>%</label>
+                <br>
+            <span>Tip</span>
+            <input id="resultado" type="text" value="">
+            <button type="button"  onclick="porcentajeC()">Calcular</button>
+        </div>
+    </fieldset>
+    <br>
+    
+</form>
+
+<fieldset>
+    <div>
+        <span>Calcular edad</span>
+        <br>
+        <span>Fecha de nacimiento</span>
+        <input id="naci" type="date">
+        <span>Fecha actual</span>
+        <input id="hoy" type="date">
+        <button onclick="edad()">Edad</button>
+        <input id="fecha" type="text">
+    </div>
+</fieldset>
+</section>
+
+
+<script src="https://kit.fontawesome.com/f35fe6b315.js" crossorigin="anonymous"></script>
+
+<script src="proyect.js"></script>
 </body>
 </html>

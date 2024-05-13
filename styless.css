@@ -1,0 +1,167 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(95-958090_minimalistic-simple-background-trees-white-background-nice-and.jpg);
+    background-size: cover;
+}
+
+.calculadora{
+    text-align: center;
+    width: 290px;
+    height: 400px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    box-shadow: 15px -15px 15px #222;
+    background-color: #F4B266;
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+}
+.calculadora{
+    position: relative;
+    top: 70px;
+    left: 150px;
+
+}
+
+.fila-botones{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 7px;
+    button{
+        padding: 15px;
+        border-radius: 50px;
+        background-color: #E6EBE0;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .operadores{
+        background-color: #F4D35E
+    }
+}
+button:hover{
+    background-color:  #e6ebe0cc;
+}
+
+.texto{
+    width: 255px;
+    height: 50px;
+    margin-top: -15px;
+    margin-bottom: 9px;
+    border-radius: 4px;
+    text-align: right;
+    font-size: 25px;
+    background-color: #E6EBE0;
+    border: none;
+}
+
+
+.monto{
+    border-radius: 8px;
+    border: 2px solid #000;
+}
+
+.monto{
+    position: relative;
+    right: 143px;
+    bottom: 332px;
+    height: 400px;
+    background-color: #F4B266;
+
+}
+
+.contenedor-monto{
+    margin: 15px 8px;
+    width: 250px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #50C1BA;
+    border: none;
+
+}
+
+.contenedor-deseado{
+   width: 250px;
+   height: 155px;
+   border-radius: 10px;
+   border: none;
+   margin: 10px 7px;
+   background-color:  #50C1BA ;
+   button{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top: -4px;
+    left: 15px;
+   }
+}
+
+
+span{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.fila-botonesA{
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #E6EBE0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    position: relative;
+    left: 35px;
+}
+
+#pantallaA{
+    background-color: #E6EBE0;
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 200px;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#pantallaB{
+    background-color: #E6EBE0;
+    border: none;
+    border-radius: 4px;
+    height: 25px;
+    width: 150px;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#resultado{
+    background-color: #E6EBE0;
+    border: none;
+    border-radius: 4px;
+    height: 25px;
+    width: 120px;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    
+}
+
+
+

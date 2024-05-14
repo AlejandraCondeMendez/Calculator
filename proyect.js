@@ -16,16 +16,17 @@ hora específica.*/
 
 let naci = document.getElementById("naci")
 let edad = document.getElementById("edad")
-let boton = document.getElementById("boton")
+let boton = document.getElementById("btnEdad")
 
 function calcularEdad(fecha) {
-    let diferenciaFecha = date.now() - fecha.gettime()
+    let diferenciaFecha = Date.now() - fecha.getTime()
     fecha = new Date (diferenciaFecha)
     return Math.abs(fecha.getUTCFullYear()-1970)    
 }
 boton.addEventListener("click", function () {
-    edad.value = calcularEdad(new Date (naci))
+    edad.value = calcularEdad(new Date (naci.value))
 })
+
 
 
 function agregarNumero(numero) {

@@ -25,9 +25,9 @@ h3{
     font-size: 25px;
 }
 .calculadora{
-    position: relative;
+    position: absolute;
     top: 70px;
-    left: 150px;
+    left: 600px;
 
 }
 
@@ -70,9 +70,9 @@ button:hover{
 }
 
 .monto{
-    position: relative;
-    right: 143px;
-    bottom: 332px;
+    position: absolute;
+    right: 630px;
+    bottom: 94px;
     height: 400px;
     background-color: #F4B266;
 
@@ -100,9 +100,9 @@ button:hover{
     padding: 5px;
     border-radius: 10px;
     border: none;
-    position: relative;
-    top: -4px;
-    left: 15px;
+    position: absolute;
+    left: 190px;
+    bottom: 70px;
    }
 }
 
